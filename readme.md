@@ -2,15 +2,15 @@
 
 ## File list
 
-- Data：It contains the data required for training.
-- Vocab: It contains the vocab file for protein and drug tokenizer.
+- Data：It contains the data files for training.
+- Vocab: It contains the vocab files for protein and drug tokenizer.
 - Code: It contains code files.
 
 
 
 ## Run code
 
-Use the main_ pretraining.py in the Code folder to pre-train model. 
+Use the main_pretraining.py in the Code folder to pre-train model. 
 
 You can customize the parameters by modifying the file, including the save path of the dataset, training super parameters and model weights.
 
