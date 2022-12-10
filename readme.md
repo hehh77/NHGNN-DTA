@@ -1,4 +1,9 @@
 #  NHGNN-DTA
+NHGNN-DTA: A Node-adaptive Hybrid Graph Neural Network for Interpretable Drug-target Binding Affinity Prediction
+
+Code is being updated.
+
+
 
 ## File list
 
