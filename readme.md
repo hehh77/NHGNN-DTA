@@ -18,7 +18,7 @@ You can customize the parameters by modifying the file, including the save path 
 python main_pretraining.py
 ```
 
-After pre-training, the main.py file is used for training. And the path of model parameter file in the file needs to be setting.
+After pre-training, the main.py file is used for training. And the path of model parameter file needs to be setting.
 
 ```python
 python main.py
