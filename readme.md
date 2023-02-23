@@ -32,7 +32,8 @@ python main.py
 ## Cold drug/target/drug-target split
 Use the split.py in the Code folder to split dataset in cold setting
 
-The name of the dataset can be set to "davis" or "kiba" by "dataset_name"
+The name of the dataset can be set to "davis" or "kiba" by "dataset_name".
+
 The random seed can be set by "SEED"
 ```python
 python split.py --dataset_name davis --SEED 42
