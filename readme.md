@@ -29,6 +29,15 @@ After pre-training, the main.py file is used for training. And the path of model
 python main.py
 ```
 
+## Cold drug/target/drug-target split
+Use the split.py in the Code folder to split dataset in cold setting
+
+The name of the dataset can be set to "davis" or "kiba" by "dataset_name"
+The random seed can be set by "SEED"
+```python
+python split.py --dataset_name davis --SEED 42
+```
+Then you will get the training, validation and test data sets of the three cold start settings corresponding to the data set.
 
 
 ## Requirement
