@@ -1,8 +1,6 @@
 #  NHGNN-DTA
 NHGNN-DTA: A Node-adaptive Hybrid Graph Neural Network for Interpretable Drug-target Binding Affinity Prediction
 
-Code is being updated.
-
 
 
 ## File list
@@ -11,8 +9,13 @@ Code is being updated.
 - Vocab: It contains the vocab files for protein and drug tokenizer.
 - Code: It contains code files.
 
+## Generation of contact map
 
+Generating contact map relies on the following libraries:
+- hhsuite (https://github.com/soedinglab/hh-suite)
+- ccmpred (https://github.com/soedinglab/CCMpred)
 
+Then you can run scripts.py to get the corresponding npy files.
 ## Run code
 
 Use the main_pretraining.py in the Code folder to pre-train model. 
